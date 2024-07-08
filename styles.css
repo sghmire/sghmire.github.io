@@ -68,3 +68,39 @@ img {
     align-items: center;
     padding: 2em 0;
 }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#search-bar {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3d1414;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a1c1c;
+}
+
+footer {
+    background-color: #3d1414;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
